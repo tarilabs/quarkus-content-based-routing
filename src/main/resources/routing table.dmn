@@ -1,0 +1,116 @@
+<dmn:definitions xmlns:dmn="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns="ns1" xmlns:feel="http://www.omg.org/spec/DMN/20180521/FEEL/" xmlns:kie="http://www.drools.org/kie/dmn/1.2" xmlns:dmndi="http://www.omg.org/spec/DMN/20180521/DMNDI/" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" id="_25BE907D-3DFC-4A6F-8C99-5C5B6552C79C" name="routing table" typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" namespace="ns1">
+  <dmn:extensionElements/>
+  <dmn:itemDefinition id="_91D84BC1-36C2-4C50-AD15-C97548BBCB59" name="tMessage" isCollection="false">
+    <dmn:itemComponent id="_711B2B0C-CB15-4B1A-8C77-E419C1E94514" name="sending application" isCollection="false">
+      <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemComponent>
+    <dmn:itemComponent id="_B134E2D0-73B0-4998-BC6D-24F619EB5AC9" name="type" isCollection="false">
+      <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemComponent>
+    <dmn:itemComponent id="_26175AAC-CDD6-4C81-ADBB-7DEC9EAE31A3" name="event" isCollection="false">
+      <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemComponent>
+  </dmn:itemDefinition>
+  <dmn:inputData id="_3D9F24D6-1F5F-4720-B784-F99D8CE0E365" name="message">
+    <dmn:extensionElements/>
+    <dmn:variable id="_FB824D25-C7B2-4DE0-A1C8-327DBED4D13A" name="message" typeRef="tMessage"/>
+  </dmn:inputData>
+  <dmn:decision id="_78E12930-9637-4E38-AA4B-0EF9789CBDA7" name="topic names">
+    <dmn:extensionElements/>
+    <dmn:variable id="_F22C3526-DF2F-464A-AC79-0D4E56B69D83" name="topic names" typeRef="Any"/>
+    <dmn:informationRequirement id="_B1C7FFA1-2213-43A9-9727-39089531C369">
+      <dmn:requiredInput href="#_3D9F24D6-1F5F-4720-B784-F99D8CE0E365"/>
+    </dmn:informationRequirement>
+    <dmn:decisionTable id="_8202B9D6-EEF7-4A28-9214-8ACB8267721F" hitPolicy="COLLECT" preferredOrientation="Rule-as-Row">
+      <dmn:input id="_450C3B92-2BA8-4E5A-8ED7-1A2F7E5FB2B4">
+        <dmn:inputExpression id="_E55AB2A1-C5C5-43D0-B587-07F095A8E6BB" typeRef="string">
+          <dmn:text>message.sending application</dmn:text>
+        </dmn:inputExpression>
+      </dmn:input>
+      <dmn:input id="_1828DD1C-B426-493F-BB7A-FCA49D90EF9C">
+        <dmn:inputExpression id="_BDF164C1-BB1A-4800-8949-7169E0A3959A" typeRef="string">
+          <dmn:text>message.type</dmn:text>
+        </dmn:inputExpression>
+      </dmn:input>
+      <dmn:input id="_8753B3DD-CDE8-4E55-909A-4221E47CFCAA">
+        <dmn:inputExpression id="_914043E9-FCF9-4034-A470-68A7A7EC16AB" typeRef="string">
+          <dmn:text>message.event</dmn:text>
+        </dmn:inputExpression>
+      </dmn:input>
+      <dmn:output id="_60936722-C8F7-4336-B069-FF0C7810845F"/>
+      <dmn:annotation name="comments"/>
+      <dmn:rule id="_5610FF34-A90B-473C-BE7F-ED5D3FEAF183">
+        <dmn:inputEntry id="_2F0713E7-743C-4C21-86E2-57F39CF787B8">
+          <dmn:text>"MMS"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_8D492844-0349-4409-9A67-D635CC7D8832">
+          <dmn:text>"ADT"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_88500B67-654D-4699-8260-660F5D6BE076">
+          <dmn:text>-</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_49D9B487-B0C9-4BDD-BBC8-6BA358F48370">
+          <dmn:text>"MMSAllADT"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text>All ADTSs from MMS application</dmn:text>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_EF6948DC-CFEF-4F52-B96B-D3F4F95311EF">
+        <dmn:inputEntry id="_EA79F919-CDB7-47B8-B5F1-FF3BEF9B59E1">
+          <dmn:text>"MMS"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_08B5BBAA-8765-4923-A7C3-BF9E8852BAEC">
+          <dmn:text>"ADT"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_6659C4EF-7168-4A96-B3AC-86772C3A969B">
+          <dmn:text>"A03"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_DC7AD028-A39D-4F66-8B29-262BD7A41730">
+          <dmn:text>"MMSDischarges"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text>Only ADTs A01s from MMS application</dmn:text>
+        </dmn:annotationEntry>
+      </dmn:rule>
+    </dmn:decisionTable>
+  </dmn:decision>
+  <dmndi:DMNDI>
+    <dmndi:DMNDiagram id="_AF73A0BE-350D-4888-AFF2-B22F5DC2A299" name="DRG">
+      <di:extension>
+        <kie:ComponentsWidthsExtension>
+          <kie:ComponentWidths dmnElementRef="_8202B9D6-EEF7-4A28-9214-8ACB8267721F">
+            <kie:width>50</kie:width>
+            <kie:width>194</kie:width>
+            <kie:width>108</kie:width>
+            <kie:width>111</kie:width>
+            <kie:width>141</kie:width>
+            <kie:width>340</kie:width>
+          </kie:ComponentWidths>
+        </kie:ComponentsWidthsExtension>
+      </di:extension>
+      <dmndi:DMNShape id="dmnshape-drg-_3D9F24D6-1F5F-4720-B784-F99D8CE0E365" dmnElementRef="_3D9F24D6-1F5F-4720-B784-F99D8CE0E365" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="233" y="229" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-drg-_78E12930-9637-4E38-AA4B-0EF9789CBDA7" dmnElementRef="_78E12930-9637-4E38-AA4B-0EF9789CBDA7" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="413" y="229" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNEdge id="dmnedge-drg-_B1C7FFA1-2213-43A9-9727-39089531C369" dmnElementRef="_B1C7FFA1-2213-43A9-9727-39089531C369">
+        <di:waypoint x="333" y="254"/>
+        <di:waypoint x="413" y="254"/>
+      </dmndi:DMNEdge>
+    </dmndi:DMNDiagram>
+  </dmndi:DMNDI>
+</dmn:definitions>
