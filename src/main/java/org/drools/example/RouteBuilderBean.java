@@ -1,18 +1,14 @@
 package org.drools.example;
 
-import java.util.Map;
-
 import javax.annotation.PostConstruct;
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
 
-import org.apache.camel.Exchange;
 import org.apache.camel.Processor;
 import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.component.hl7.HL7;
-// import org.apache.camel.component.kafka.KafkaConstants;
+import org.apache.camel.component.kafka.KafkaConstants;
 import org.apache.camel.model.ClaimCheckOperation;
-import org.drools.utils.camel3.DMNResultDecisionsToHeadersProcessor;
 import org.drools.utils.camel3.KogitoProcessorFactory;
 
 @ApplicationScoped
@@ -44,18 +40,15 @@ public class RouteBuilderBean extends RouteBuilder {
         
         from("direct:kafka")
             .marshal().hl7()
-            .to("log:org.drools.demo?level=INFO&showAll=true&multiline=true")
+            .choice()
+            .when(simple("${header.topicsHeader.size} > 0"))
+                .loop(simple("${header.topicsHeader.size}"))
+                    .setHeader(KafkaConstants.OVERRIDE_TOPIC, 
+                        simple("${header.topicsHeader[${exchangeProperty.CamelLoopIndex}]}"))
+                    .to("kafka:default")
+                .endChoice()
+            .otherwise()
+                .to("kafka:CATCH_ALL")
             ;
-        //     .transform().simple("${body.messageData}")
-        //     .choice()
-        //     .when(simple("${header.topicsHeader.size} > 0"))
-        //         .loop(simple("${header.topicsHeader.size}"))
-        //             .setHeader(KafkaConstants.OVERRIDE_TOPIC, 
-        //                 simple("${header.topicsHeader[${exchangeProperty.CamelLoopIndex}]}"))
-        //             .to("kafka:default")
-        //         .endChoice()
-        //     .otherwise()
-        //         .to("kafka:CATCH_ALL")
-        //     ;
     }
 }

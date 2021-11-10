@@ -1,9 +1,9 @@
 package org.drools.utils.camel3;
 
+import java.util.Map;
+
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
-
-import com.sun.xml.xsom.impl.scd.Iterators.Map;
 
 import org.apache.camel.Exchange;
 import org.apache.camel.Processor;
@@ -25,8 +25,7 @@ public class KogitoProcessorFactory {
             @Override
             public void process(Exchange exchange) throws Exception {
                 var decisionModel = appRoot.get(DecisionIds.class).get(namespace, name);
-                var exBody = exchange.getIn().getBody();
-                System.out.println(exBody);
+                var exBody = exchange.getIn().getBody(Map.class);
                 var evaluateAll = decisionService.evaluate(decisionModel, MapDataContext.from(exBody)).as(MapDataContext.class).toMap();
                 exchange.getIn().setBody(evaluateAll);
             }
