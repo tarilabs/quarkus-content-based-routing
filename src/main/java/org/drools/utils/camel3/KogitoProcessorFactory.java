@@ -25,9 +25,9 @@ public class KogitoProcessorFactory {
             @Override
             public void process(Exchange exchange) throws Exception {
                 var decisionModel = appRoot.get(DecisionIds.class).get(namespace, name);
-                var exBody = exchange.getIn().getBody(Map.class);
-                var evaluateAll = decisionService.evaluate(decisionModel, MapDataContext.from(exBody)).as(MapDataContext.class).toMap();
-                exchange.getIn().setBody(evaluateAll);
+                var inBody = exchange.getIn().getBody(Map.class);
+                var evaluateAll = decisionService.evaluate(decisionModel, MapDataContext.from(inBody));
+                exchange.getIn().setBody(evaluateAll.as(MapDataContext.class).toMap());
             }
         };
     }
