@@ -113,6 +113,20 @@ Stop the demo by quitting the java application and stop the simple Kafka cluster
 docker-compose down
 ```
 
+# Running with Managed Kafka
+
+Configure local `.env` file in this root directory with:
+```
+CLIENT_ID=srvc-acct-...
+CLIENT_SECRET=...
+```
+
+To run a Dockerized KafDrop connecting to the managed kafka, configure local `kafdrop.properties.env` with:
+```
+security.protocol=SASL_SSL
+sasl.mechanism=PLAIN
+sasl.jaas.config=org.apache.kafka.common.security.plain.PlainLoginModule required username="srvc-acct-..." password="...";
+```
 
 <!-- ## Creating a native executable
 

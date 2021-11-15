@@ -16,6 +16,7 @@
     <quarkus.platform.group-id>io.quarkus.platform</quarkus.platform.group-id>
     <quarkus.platform.version>2.4.2.Final</quarkus.platform.version>
     <surefire-plugin.version>3.0.0-M5</surefire-plugin.version>
+    <kafka-oauth-client.version>0.7.2</kafka-oauth-client.version>
   </properties>
   <dependencyManagement>
     <dependencies>
@@ -39,6 +40,11 @@
         <version>${quarkus.platform.version}</version>
         <type>pom</type>
         <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>io.strimzi</groupId>
+        <artifactId>kafka-oauth-client</artifactId>
+        <version>${kafka-oauth-client.version}</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
@@ -97,6 +103,13 @@
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-resteasy</artifactId>
     </dependency>
+
+    <!-- For oauth use case -->
+    <dependency>
+      <groupId>io.strimzi</groupId>
+      <artifactId>kafka-oauth-client</artifactId>
+    </dependency>
+
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-junit5</artifactId>
