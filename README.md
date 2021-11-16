@@ -119,6 +119,8 @@ Configure local `.env` file in this root directory with:
 ```
 CLIENT_ID=srvc-acct-...
 CLIENT_SECRET=...
+TOKEN_URL=https://identity.api.openshift.com/auth/realms/rhoas/protocol/openid-connect/token
+KAFKA_BROKERCONNECT= ... .kafka.rhcloud.com:443
 ```
 
 To run a Dockerized KafDrop connecting to the managed kafka, configure local `kafdrop.properties.env` with:
