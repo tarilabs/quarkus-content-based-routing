@@ -19,8 +19,8 @@ public class HL7v2Resource {
 
     @POST
     @Path("new")
-    @Consumes(MediaType.TEXT_PLAIN)
-    @Produces(MediaType.TEXT_PLAIN)
+    @Consumes({"application/hl7-v2", MediaType.TEXT_PLAIN})
+    @Produces("application/hl7-v2")
     public String post(String hl7v2Message) {
         return startProducer.requestBody(hl7v2Message).toString();
     }
