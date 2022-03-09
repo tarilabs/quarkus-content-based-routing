@@ -1,3 +1,6 @@
+🎥 YouTube video: https://www.youtube.com/watch?v=nXyKM-xds2M
+✍️ blog post: https://blog.kie.org/2022/03/content-based-routing-with-quarkus-and-kogito.html
+
 # Quakus content based routing demo
 
 This demo is a further iteration of rule-based Kafka message routing, specifically for HL7 healthcare messages; using Quarkus, Kogito, Drools DMN Engine, Apache Camel and AtlasMap.
@@ -130,7 +133,12 @@ sasl.mechanism=PLAIN
 sasl.jaas.config=org.apache.kafka.common.security.plain.PlainLoginModule required username="srvc-acct-..." password="...";
 ```
 
-<!-- ## Creating a native executable
+<!--
+Label for openshift:
+
+app.openshift.io/runtime=quarkus
+
+## Creating a native executable
 
 You can create a native executable using: 
 ```shell script
