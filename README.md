@@ -1,4 +1,5 @@
 🎥 YouTube video: https://www.youtube.com/watch?v=nXyKM-xds2M
+
 ✍️ blog post: https://blog.kie.org/2022/03/content-based-routing-with-quarkus-and-kogito.html
 
 # Quakus content based routing demo
