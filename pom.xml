@@ -14,7 +14,7 @@
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <quarkus.platform.artifact-id>quarkus-bom</quarkus.platform.artifact-id>
     <quarkus.platform.group-id>io.quarkus.platform</quarkus.platform.group-id>
-    <quarkus.platform.version>2.4.2.Final</quarkus.platform.version>
+    <quarkus.platform.version>2.8.0.Final</quarkus.platform.version>
     <surefire-plugin.version>3.0.0-M5</surefire-plugin.version>
     <kafka-oauth-client.version>0.7.2</kafka-oauth-client.version>
   </properties>
@@ -88,12 +88,7 @@
     <dependency>
       <groupId>org.apache.camel.quarkus</groupId>
       <artifactId>camel-quarkus-atlasmap</artifactId>
-      <exclusions>
-        <exclusion>
-          <groupId>xerces</groupId>
-          <artifactId>xercesImpl</artifactId>
-        </exclusion>
-      </exclusions>
+      <!-- No longer needed to exclude xercesImpl manually thanks to https://github.com/apache/camel-quarkus/issues/3282#issuecomment-1096816883 -->
     </dependency>
     <dependency>
       <groupId>io.quarkus</groupId>
@@ -102,6 +97,10 @@
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-resteasy</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>io.quarkus</groupId>
+      <artifactId>quarkus-resteasy-jackson</artifactId>
     </dependency>
 
     <!-- For oauth use case -->
@@ -128,6 +127,7 @@
     <dependency>
       <groupId>org.assertj</groupId>
       <artifactId>assertj-core</artifactId>
+      <version>3.22.0</version>
       <scope>test</scope>
     </dependency>
   </dependencies>

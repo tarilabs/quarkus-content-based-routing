@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:xhtml="http://www.w3.org/1999/xhtml"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4f, 2020-05-01)"
+   sodipodi:docname="idaasQuarkus.drawio (1).svg"
+   id="svg175"
+   content="&lt;mxfile host=&quot;app.diagrams.net&quot; modified=&quot;2022-02-26T10:08:58.862Z&quot; agent=&quot;5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36&quot; etag=&quot;yZSoFebaoOHqF3B26vGP&quot; version=&quot;16.6.4&quot; type=&quot;device&quot;&gt;&lt;diagram id=&quot;s9xBpA70PCOdGZNn_4f9&quot; name=&quot;Page-1&quot;&gt;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&lt;/diagram&gt;&lt;/mxfile&gt;"
+   viewBox="-0.5 -0.5 849 242"
+   height="242px"
+   width="849px"
+   version="1.1">
+  <metadata
+     id="metadata179">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     inkscape:current-layer="svg175"
+     inkscape:window-maximized="1"
+     inkscape:window-y="0"
+     inkscape:window-x="0"
+     inkscape:cy="110.23975"
+     inkscape:cx="706.88518"
+     inkscape:zoom="1.6771958"
+     showgrid="false"
+     id="namedview177"
+     inkscape:window-height="1022"
+     inkscape:window-width="1680"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <defs
+     id="defs15">
+    <linearGradient
+       id="mx-gradient-e6e6e6-1-808080-1-s-0"
+       y2="100%"
+       x2="0%"
+       y1="0%"
+       x1="0%">
+      <stop
+         id="stop10"
+         style="stop-color: rgb(230, 230, 230); stop-opacity: 1;"
+         offset="0%" />
+      <stop
+         id="stop12"
+         style="stop-color: rgb(128, 128, 128); stop-opacity: 1;"
+         offset="100%" />
+    </linearGradient>
+  </defs>
+  <g
+     id="g165">
+    <path
+       id="path17"
+       pointer-events="stroke"
+       stroke-miterlimit="10"
+       stroke-width="2"
+       stroke="#808080"
+       fill="none"
+       d="M 90 80.75 L 115.76 80.75" />
+    <path
+       id="path19"
+       pointer-events="all"
+       stroke-miterlimit="10"
+       stroke-width="2"
+       stroke="#808080"
+       fill="#808080"
+       d="M 127.76 80.75 L 115.76 86.75 L 115.76 74.75 Z" />
+    <path
+       id="path21"
+       pointer-events="stroke"
+       stroke-miterlimit="10"
+       stroke-width="2"
+       stroke="#808080"
+       fill="none"
+       d="M 220 80.75 L 245.76 80.91" />
+    <path
+       id="path23"
+       pointer-events="all"
+       stroke-miterlimit="10"
+       stroke-width="2"
+       stroke="#808080"
+       fill="#808080"
+       d="M 257.76 80.99 L 245.73 86.91 L 245.8 74.91 Z" />
+    <rect
+       id="rect25"
+       pointer-events="none"
+       stroke-width="2"
+       stroke="rgb(0, 0, 0)"
+       fill="#c0f5a9"
+       height="40"
+       width="66.67"
+       y="61"
+       x="140" />
+    <g
+       id="g31"
+       font-size="12px"
+       text-anchor="middle"
+       pointer-events="none"
+       font-family="Helvetica"
+       fill="rgb(0, 0, 0)">
+      <text
+         id="text27"
+         y="118.5"
+         x="172.84">REST Endpoint</text>
+      <text
+         id="text29"
+         y="132.5"
+         x="172.84">(webhook)</text>
+    </g>
+    <rect
+       id="rect33"
+       pointer-events="none"
+       stroke="rgb(0, 0, 0)"
+       fill="rgb(255, 255, 255)"
+       height="17.78"
+       width="17.78"
+       y="72.11"
+       x="151.11" />
+    <path
+       id="path35"
+       pointer-events="none"
+       stroke-dasharray="6 6"
+       stroke-miterlimit="10"
+       stroke-width="2"
+       stroke="#808080"
+       fill="none"
+       d="M 480 81 L 510 81 Q 520 81 520 91 L 520 189 Q 520 199 527.88 199 L 535.76 199" />
+    <path
+       id="path37"
+       pointer-events="none"
+       stroke-miterlimit="10"
+       stroke-width="2"
+       stroke="#808080"
+       fill="#808080"
+       d="M 547.76 199 L 535.76 205 L 535.76 193 Z" />
+    <path
+       id="path39"
+       pointer-events="none"
+       stroke-miterlimit="10"
+       stroke="rgb(0, 0, 0)"
+       fill="url(#mx-gradient-e6e6e6-1-808080-1-s-0)"
+       d="M 608 41 C 604.65 38.78 602.63 35.02 602.63 31 C 602.63 26.98 604.65 23.22 608 21 L 692 21 C 695.35 23.22 697.37 26.98 697.37 31 C 697.37 35.02 695.35 38.78 692 41 Z" />
+    <path
+       id="path41"
+       pointer-events="none"
+       stroke-miterlimit="10"
+       stroke="rgb(0, 0, 0)"
+       fill="#e6e6e6"
+       d="M 692 21 C 695.35 23.22 697.37 26.98 697.37 31 C 697.37 35.02 695.35 38.78 692 41 C 688.65 38.78 686.63 35.02 686.63 31 C 686.63 26.98 688.65 23.22 692 21" />
+    <g
+       id="g47"
+       transform="translate(-0.5 -0.5)">
+      <switch
+         id="switch45">
+        <foreignObject
+           style="overflow: visible; text-align: left;"
+           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+           height="100%"
+           width="100%"
+           pointer-events="none">
+          <xhtml:div
+             style="display: flex; align-items: unsafe flex-start; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 48px; margin-left: 650px;">
+            <xhtml:div
+               style="box-sizing: border-box; font-size: 0px; text-align: center;"
+               data-drawio-colors="color: rgb(0, 0, 0); background-color: #ffffff; ">
+              <xhtml:div
+                 style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; background-color: rgb(255, 255, 255); white-space: nowrap;">All MMS ADTs</xhtml:div>
+            </xhtml:div>
+          </xhtml:div>
+        </foreignObject>
+        <text
+           id="text43"
+           text-anchor="middle"
+           font-size="12px"
+           font-family="Helvetica"
+           fill="rgb(0, 0, 0)"
+           y="60"
+           x="650">All MMS ADTs</text>
+      </switch>
+    </g>
+    <rect
+       id="rect49"
+       pointer-events="none"
+       stroke-width="2"
+       stroke="rgb(0, 0, 0)"
+       fill="#c0f5a9"
+       height="40"
+       width="66.67"
+       y="61"
+       x="400" />
+    <path
+       id="path51"
+       pointer-events="none"
+       stroke-miterlimit="10"
+       stroke="#000000"
+       fill="none"
+       d="M 404.44 81 L 420 81 M 446.67 71.67 L 462.23 71.67 M 446.67 81 L 462.23 81 M 446.67 90.33 L 462.23 90.33 M 446.67 71.67 L 420 81" />
+    <ellipse
+       id="ellipse53"
+       pointer-events="none"
+       stroke="none"
+       fill="#000000"
+       ry="1.7777777777777777"
+       rx="1.7778666666666667"
+       cy="81"
+       cx="420" />
+    <ellipse
+       id="ellipse55"
+       pointer-events="none"
+       stroke="none"
+       fill="#000000"
+       ry="1.7777777777777777"
+       rx="1.7778666666666667"
+       cy="71.67"
+       cx="446.67" />
+    <ellipse
+       id="ellipse57"
+       pointer-events="none"
+       stroke="none"
+       fill="#000000"
+       ry="1.7777777777777777"
+       rx="1.7778666666666667"
+       cy="81"
+       cx="446.67" />
+    <ellipse
+       id="ellipse59"
+       pointer-events="none"
+       stroke="none"
+       fill="#000000"
+       ry="1.7777777777777777"
+       rx="1.7778666666666667"
+       cy="90.33"
+       cx="446.67" />
+    <g
+       id="g63"
+       font-size="12px"
+       text-anchor="middle"
+       pointer-events="none"
+       font-family="Helvetica"
+       fill="rgb(0, 0, 0)">
+      <text
+         id="text61"
+         y="118.5"
+         x="432.84">Router</text>
+    </g>
+    <path
+       id="path65"
+       pointer-events="none"
+       stroke-miterlimit="10"
+       stroke-width="2"
+       stroke="#808080"
+       fill="none"
+       d="M 480 80.75 L 510 80.94 Q 520 81 520 71 L 520 51 Q 520 41 527.88 41 L 535.76 41" />
+    <path
+       id="path67"
+       pointer-events="none"
+       stroke-miterlimit="10"
+       stroke-width="2"
+       stroke="#808080"
+       fill="#808080"
+       d="M 547.76 41 L 535.76 47 L 535.76 35 Z" />
+    <ellipse
+       id="ellipse69"
+       pointer-events="none"
+       stroke="none"
+       fill="#808080"
+       ry="6"
+       rx="6"
+       cy="27"
+       cx="566" />
+    <rect
+       id="rect71"
+       pointer-events="none"
+       stroke-width="2"
+       stroke="rgb(0, 0, 0)"
+       fill="#80ff6c"
+       height="12"
+       width="12"
+       y="39"
+       x="576" />
+    <path
+       id="path73"
+       pointer-events="none"
+       stroke-miterlimit="10"
+       stroke-width="2"
+       stroke="#808080"
+       fill="none"
+       d="M 576 45 L 566 45 L 566 33" />
+    <ellipse
+       id="ellipse75"
+       pointer-events="none"
+       stroke="none"
+       fill="#808080"
+       ry="6"
+       rx="6"
+       cy="107"
+       cx="566" />
+    <rect
+       id="rect77"
+       pointer-events="none"
+       stroke-width="2"
+       stroke="rgb(0, 0, 0)"
+       fill="#00cc00"
+       height="12"
+       width="12"
+       y="119"
+       x="576" />
+    <path
+       id="path79"
+       pointer-events="none"
+       stroke="none"
+       fill="#ffff00"
+       d="M 578 119 L 576 121 L 576 119 Z M 582 119 L 576 125 L 576 129 L 586 119 Z M 588 121 L 578 131 L 582 131 L 588 125 Z M 588 131 L 588 129 L 586 131 Z" />
+    <rect
+       id="rect81"
+       pointer-events="none"
+       stroke-width="2"
+       stroke="rgb(0, 0, 0)"
+       fill="none"
+       height="12"
+       width="12"
+       y="119"
+       x="576" />
+    <path
+       id="path83"
+       pointer-events="none"
+       stroke-miterlimit="10"
+       stroke-width="2"
+       stroke="#808080"
+       fill="none"
+       d="M 576 125 L 566 125 L 566 113" />
+    <path
+       id="path85"
+       pointer-events="none"
+       stroke-miterlimit="10"
+       stroke-width="2"
+       stroke="#808080"
+       fill="none"
+       d="M 480 80.75 L 510 80.94 Q 520 81 520 91 L 520 111 Q 520 121 527.88 121 L 535.76 121" />
+    <path
+       id="path87"
+       pointer-events="none"
+       stroke-miterlimit="10"
+       stroke-width="2"
+       stroke="#808080"
+       fill="#808080"
+       d="M 547.76 121 L 535.76 127 L 535.76 115 Z" />
+    <path
+       id="path89"
+       pointer-events="none"
+       stroke-miterlimit="10"
+       stroke="rgb(0, 0, 0)"
+       fill="url(#mx-gradient-e6e6e6-1-808080-1-s-0)"
+       d="M 608 121 C 604.65 118.78 602.63 115.02 602.63 111 C 602.63 106.98 604.65 103.22 608 101 L 692 101 C 695.35 103.22 697.37 106.98 697.37 111 C 697.37 115.02 695.35 118.78 692 121 Z" />
+    <path
+       id="path91"
+       pointer-events="none"
+       stroke-miterlimit="10"
+       stroke="rgb(0, 0, 0)"
+       fill="#e6e6e6"
+       d="M 692 101 C 695.35 103.22 697.37 106.98 697.37 111 C 697.37 115.02 695.35 118.78 692 121 C 688.65 118.78 686.63 115.02 686.63 111 C 686.63 106.98 688.65 103.22 692 101" />
+    <g
+       id="g97"
+       transform="translate(-0.5 -0.5)">
+      <switch
+         id="switch95">
+        <foreignObject
+           style="overflow: visible; text-align: left;"
+           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+           height="100%"
+           width="100%"
+           pointer-events="none">
+          <xhtml:div
+             style="display: flex; align-items: unsafe flex-start; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 128px; margin-left: 650px;">
+            <xhtml:div
+               style="box-sizing: border-box; font-size: 0px; text-align: center;"
+               data-drawio-colors="color: rgb(0, 0, 0); background-color: #ffffff; ">
+              <xhtml:div
+                 style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; background-color: rgb(255, 255, 255); white-space: nowrap;">MMS A03<xhtml:br />
+Patient discharge</xhtml:div>
+            </xhtml:div>
+          </xhtml:div>
+        </foreignObject>
+        <text
+           inkscape:export-ydpi="300"
+           inkscape:export-xdpi="300"
+           inkscape:export-filename="/Users/mmortari/text93.png"
+           id="text93"
+           text-anchor="middle"
+           font-size="12px"
+           font-family="Helvetica"
+           fill="#000000"
+           y="140"
+           x="650"><tspan
+             y="140"
+             x="650"
+             id="tspan185"
+             sodipodi:role="line">MMS A03</tspan><tspan
+             y="155"
+             x="650"
+             id="tspan187"
+             sodipodi:role="line">Patient discharge</tspan></text>
+      </switch>
+    </g>
+    <ellipse
+       id="ellipse99"
+       pointer-events="none"
+       stroke="none"
+       fill="#808080"
+       ry="6"
+       rx="6"
+       cy="187"
+       cx="566" />
+    <rect
+       id="rect101"
+       pointer-events="none"
+       stroke-width="2"
+       stroke="rgb(0, 0, 0)"
+       fill="none"
+       height="12"
+       width="12"
+       y="199"
+       x="576" />
+    <path
+       id="path103"
+       pointer-events="none"
+       stroke="none"
+       fill="#ffff00"
+       d="M 578 199 L 576 201 L 576 199 Z M 582 199 L 576 205 L 576 209 L 586 199 Z M 588 201 L 578 211 L 582 211 L 588 205 Z M 588 211 L 588 209 L 586 211 Z" />
+    <rect
+       id="rect105"
+       pointer-events="none"
+       stroke-width="2"
+       stroke="rgb(0, 0, 0)"
+       fill="none"
+       height="12"
+       width="12"
+       y="199"
+       x="576" />
+    <path
+       id="path107"
+       pointer-events="none"
+       stroke-miterlimit="10"
+       stroke-width="2"
+       stroke="#808080"
+       fill="none"
+       d="M 576 205 L 566 205 L 566 193" />
+    <path
+       id="path109"
+       pointer-events="none"
+       stroke-miterlimit="10"
+       stroke="rgb(0, 0, 0)"
+       fill="url(#mx-gradient-e6e6e6-1-808080-1-s-0)"
+       d="M 608 201 C 604.65 198.78 602.63 195.02 602.63 191 C 602.63 186.98 604.65 183.22 608 181 L 692 181 C 695.35 183.22 697.37 186.98 697.37 191 C 697.37 195.02 695.35 198.78 692 201 Z" />
+    <path
+       id="path111"
+       pointer-events="none"
+       stroke-miterlimit="10"
+       stroke="rgb(0, 0, 0)"
+       fill="#e6e6e6"
+       d="M 692 181 C 695.35 183.22 697.37 186.98 697.37 191 C 697.37 195.02 695.35 198.78 692 201 C 688.65 198.78 686.63 195.02 686.63 191 C 686.63 186.98 688.65 183.22 692 181" />
+    <g
+       id="g117"
+       transform="translate(-0.5 -0.5)">
+      <switch
+         id="switch115">
+        <foreignObject
+           style="overflow: visible; text-align: left;"
+           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+           height="100%"
+           width="100%"
+           pointer-events="none">
+          <xhtml:div
+             style="display: flex; align-items: unsafe flex-start; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 208px; margin-left: 650px;">
+            <xhtml:div
+               style="box-sizing: border-box; font-size: 0px; text-align: center;"
+               data-drawio-colors="color: rgb(0, 0, 0); background-color: #ffffff; ">
+              <xhtml:div
+                 style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; background-color: rgb(255, 255, 255); white-space: nowrap;">...</xhtml:div>
+            </xhtml:div>
+          </xhtml:div>
+        </foreignObject>
+        <text
+           id="text113"
+           text-anchor="middle"
+           font-size="12px"
+           font-family="Helvetica"
+           fill="rgb(0, 0, 0)"
+           y="220"
+           x="650">...</text>
+      </switch>
+    </g>
+    <rect
+       id="rect119"
+       pointer-events="none"
+       stroke-width="2"
+       stroke="rgb(0, 0, 0)"
+       fill="#c0f5a9"
+       height="40"
+       width="66.67"
+       y="91"
+       x="780" />
+    <g
+       id="g125"
+       font-size="12px"
+       text-anchor="middle"
+       pointer-events="none"
+       font-family="Helvetica"
+       fill="rgb(0, 0, 0)">
+      <text
+         id="text121"
+         y="148.5"
+         x="812.84">other Kakfa</text>
+      <text
+         id="text123"
+         y="162.5"
+         x="812.84">consumers</text>
+    </g>
+    <rect
+       id="rect127"
+       pointer-events="none"
+       stroke="rgb(0, 0, 0)"
+       fill="rgb(255, 255, 255)"
+       height="17.78"
+       width="17.78"
+       y="102.11"
+       x="817.78" />
+    <path
+       id="path129"
+       pointer-events="none"
+       transform="rotate(90,750,111)"
+       stroke-miterlimit="10"
+       stroke-width="3"
+       stroke="#999999"
+       fill="none"
+       d="M 660 121 C 660 115.48 664.48 111 670 111 L 740 111 C 745.52 111 750 106.52 750 101 C 750 106.52 754.48 111 760 111 L 830 111 C 835.52 111 840 115.48 840 121" />
+    <rect
+       id="rect131"
+       pointer-events="none"
+       stroke-width="2"
+       stroke="rgb(0, 0, 0)"
+       fill="#c0f5a9"
+       height="40"
+       width="66.67"
+       y="61"
+       x="270" />
+    <path
+       id="path133"
+       pointer-events="none"
+       stroke-miterlimit="10"
+       stroke="#000000"
+       fill="none"
+       d="M 292.22 81 L 312.22 81" />
+    <rect
+       id="rect135"
+       pointer-events="none"
+       stroke="#000000"
+       fill="#e6e6e6"
+       height="11.11"
+       width="11.11"
+       y="73.44"
+       x="321.11" />
+    <rect
+       id="rect137"
+       pointer-events="none"
+       stroke="#000000"
+       fill="#e6e6e6"
+       height="7.11"
+       width="7.11"
+       y="77.44"
+       x="274.44" />
+    <path
+       id="path139"
+       pointer-events="none"
+       stroke="none"
+       fill="#000000"
+       d="M 308.67 78.33 L 308.67 83.67 L 314.45 81 Z" />
+    <g
+       id="g145"
+       font-size="12px"
+       text-anchor="middle"
+       pointer-events="none"
+       font-family="Helvetica"
+       fill="rgb(0, 0, 0)">
+      <text
+         id="text141"
+         y="118.5"
+         x="302.84">Enrich</text>
+      <text
+         id="text143"
+         y="132.5"
+         x="302.84">&quot;where to?&quot;</text>
+    </g>
+    <path
+       id="path147"
+       pointer-events="none"
+       stroke-miterlimit="10"
+       stroke-width="2"
+       stroke="#808080"
+       fill="none"
+       d="M 350 80.75 L 375.76 80.91" />
+    <path
+       id="path149"
+       pointer-events="none"
+       stroke-miterlimit="10"
+       stroke-width="2"
+       stroke="#808080"
+       fill="#808080"
+       d="M 387.76 80.99 L 375.73 86.91 L 375.8 74.91 Z" />
+    <ellipse
+       id="ellipse151"
+       pointer-events="none"
+       stroke="none"
+       fill="#808080"
+       ry="6"
+       rx="6"
+       cy="67"
+       cx="50" />
+    <rect
+       id="rect153"
+       pointer-events="none"
+       stroke-width="2"
+       stroke="rgb(0, 0, 0)"
+       fill="none"
+       height="12"
+       width="12"
+       y="79"
+       x="60" />
+    <path
+       id="path155"
+       pointer-events="none"
+       stroke-miterlimit="10"
+       stroke-width="2"
+       stroke="#808080"
+       fill="none"
+       d="M 60 85 L 50 85 L 50 73" />
+    <g
+       id="g161"
+       transform="translate(-0.5 -0.5)">
+      <switch
+         id="switch159">
+        <foreignObject
+           style="overflow: visible; text-align: left;"
+           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+           height="100%"
+           width="100%"
+           pointer-events="none">
+          <xhtml:div
+             style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 116px; margin-left: 50px;">
+            <xhtml:div
+               style="box-sizing: border-box; font-size: 0px; text-align: center;"
+               data-drawio-colors="color: rgb(0, 0, 0); ">
+              <xhtml:div
+                 style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; white-space: nowrap;">HL7 / FHIR / ...<xhtml:br />
+messages</xhtml:div>
+            </xhtml:div>
+          </xhtml:div>
+        </foreignObject>
+        <text
+           id="text157"
+           text-anchor="middle"
+           font-size="12px"
+           font-family="Helvetica"
+           fill="#000000"
+           y="120"
+           x="50"><tspan
+             y="120"
+             x="50"
+             id="tspan181"
+             sodipodi:role="line">HL7 / FHIR / ...</tspan><tspan
+             y="135"
+             x="50"
+             id="tspan183"
+             sodipodi:role="line">messages</tspan></text>
+      </switch>
+    </g>
+    <rect
+       id="rect163"
+       pointer-events="none"
+       stroke-dasharray="2 2"
+       stroke-width="2"
+       stroke="#808080"
+       fill="none"
+       height="240"
+       width="620"
+       y="1"
+       x="100" />
+  </g>
+  <switch
+     id="switch173">
+    <g
+       id="g167"
+       requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" />
+    <a
+       id="a171"
+       target="_blank"
+       xlink:href="https://www.diagrams.net/doc/faq/svg-export-text-problems"
+       transform="translate(0,-5)">
+      <text
+         id="text169"
+         y="100%"
+         x="50%"
+         font-size="10px"
+         text-anchor="middle">Text is not SVG - cannot display</text>
+    </a>
+  </switch>
+</svg>
